@@ -13,6 +13,34 @@
     <script src="https://unpkg.com/supersimpledev/babel.js"></script>
     <script type="text/babel">
 
+    //===================================================================================
+    // 3g, 3h - onChange event handler with controlled input (save input text in state)
+    //     function App() {
+    //         const [inputText, setInputText] = React.useState('');
+    //         const getInputText = (event) => {
+    //             setInputText(event.target.value);
+    //         }
+    //         const resetInput = () => {
+    //             setInputText('');
+    //         }
+    //         const showExample = () => {
+    //             setInputText('Miles');
+    //         }
+    //         return ( <>
+    //             <input 
+    //                 type='text'
+    //                 placeholder='Type a name here'
+    //                 size='30'
+    //                 onChange={getInputText}
+    //                 value={inputText}
+    //             />
+    //             <button onClick={resetInput}>Reset</button>
+    //             <button onClick={showExample}>Example</button>
+    //             <p>Hello {inputText}</p>
+    //         </>
+    // ) }
+
+    //===================================================================================
     // 3a - onClick event handler
     // function clickHandler() {
     //     console.log('Clicked');
@@ -26,11 +54,9 @@
     // 3b, 3c - Display actual click count on the button
     // function App() {
     //     const [count, setCount] = React.useState(0);
-
     //     const clickHandler = () => {
     //         setCount(count + 1);
     //     }
-
     //     return ( <>
     //         <button onClick={clickHandler}>
     //             Clicked {count} {count == 1 ? 'time' : 'times'}
